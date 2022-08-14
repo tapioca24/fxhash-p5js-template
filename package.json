@@ -1,0 +1,30 @@
+{
+  "name": "fxhash-sandbox",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack serve --config ./config/webpack.config.dev.js",
+    "build": "webpack --config ./config/webpack.config.prod.js",
+    "lint": "eslint 'src/**/*.js' --config ./config/.eslintrc.js --ignore-path ./config/.eslintignore",
+    "lint:fix": "yarn lint --fix",
+    "format": "prettier --write . --config ./config/.prettierrc --ignore-path ./config/.prettierignore"
+  },
+  "dependencies": {
+    "p5": "^1.4.2"
+  },
+  "devDependencies": {
+    "@fal-works/eslint-config-p5js": "^1.0.3",
+    "@types/p5": "^1.4.2",
+    "adm-zip": "^0.5.9",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  }
+}

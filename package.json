@@ -1,6 +1,8 @@
 {
-  "name": "fxhash-sandbox",
+  "name": "fxhash-p5js-template",
   "version": "0.0.0",
+  "description": "fxhash p5.js template",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "webpack serve --config ./config/webpack.config.dev.js",
